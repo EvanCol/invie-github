@@ -8,11 +8,20 @@
     img {
       max-width: 100%;
       vertical-align: top;
+      /*display: none;*/
+    }
+    img#reponsive {
+      display: none;
+    }
+    @media screen and (max-width: 768px) {
+      img#reponsive {
+        display: block;
+      }
     }
     </style>
   </head>
   <body>
-    <img src="invie-reponsive.png" alt="">
+    <img src="invie-responsive.png" alt="">
     <img src="nueva-version.jpg" alt="">
   </body>
 </html>
